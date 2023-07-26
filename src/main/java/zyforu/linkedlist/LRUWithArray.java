@@ -71,6 +71,7 @@ public class LRUWithArray<T> {
         rightShift(count--);
         caches.put(t,0);
         values[0] = t;
+        caches.remove(t);
     }
 
     private boolean isFull() {
