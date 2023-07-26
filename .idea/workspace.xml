@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="574abe55-5cf4-4bf8-96af-45d20eaf0499" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenRepository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SpTkNrx1RbajdycMeigasywMP5" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/zyforu/linkedlist/gk" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\imyed\Desktop\git\algorithm\src\main\java\zyforu\linkedlist\gk" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LRUBasedArray$TestLRUBasedArray">
+    <configuration name="LRUBasedArray$TestLRUBasedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyforu.linkedlist.gk.LRUBasedArray$TestLRUBasedArray" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zyforu.linkedlist.gk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zyforu.linkedlist.gk.SinglyLinkedList" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zyforu.linkedlist.gk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testGenericArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zyforu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zyforu" />
+      <option name="MAIN_CLASS_NAME" value="zyforu.AppTest" />
+      <option name="METHOD_NAME" value="testGenericArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zyforu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zyforu" />
+      <option name="MAIN_CLASS_NAME" value="zyforu.AppTest" />
+      <option name="METHOD_NAME" value="testJava" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testSingelLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zyforu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zyforu" />
+      <option name="MAIN_CLASS_NAME" value="zyforu.AppTest" />
+      <option name="METHOD_NAME" value="testSingelLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LRUBasedArray$TestLRUBasedArray" />
+        <item itemvalue="Application.SinglyLinkedList" />
+        <item itemvalue="JUnit.AppTest.testSingelLinkedList" />
+        <item itemvalue="JUnit.AppTest.testGenericArray" />
+        <item itemvalue="JUnit.AppTest.testJava" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="574abe55-5cf4-4bf8-96af-45d20eaf0499" name="Default Changelist" comment="" />
+      <created>1689842664944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689842664944</updated>
+      <workItem from="1689842670843" duration="1631000" />
+      <workItem from="1689907967539" duration="32088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1033" y="401" key="#com.intellij.ide.util.MemberChooser" timestamp="1690361689475">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1033" y="401" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1690361689475" />
+    <state x="1157" y="402" key="#xdebugger.evaluate" timestamp="1689931523457">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1157" y="402" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1689931523457" />
+    <state width="2517" height="353" key="GridCell.Tab.0.bottom" timestamp="1690361865048">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="353" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1690361865048" />
+    <state width="2517" height="353" key="GridCell.Tab.0.center" timestamp="1690361865048">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="353" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1690361865048" />
+    <state width="2517" height="353" key="GridCell.Tab.0.left" timestamp="1690361865048">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="353" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1690361865048" />
+    <state width="2517" height="353" key="GridCell.Tab.0.right" timestamp="1690361865048">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="353" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1690361865048" />
+    <state width="2517" height="68" key="GridCell.Tab.1.bottom" timestamp="1690341633690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="68" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1690341633690" />
+    <state width="2517" height="68" key="GridCell.Tab.1.center" timestamp="1690341633690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="68" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1690341633690" />
+    <state width="2517" height="68" key="GridCell.Tab.1.left" timestamp="1690341633690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="68" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1690341633690" />
+    <state width="2517" height="68" key="GridCell.Tab.1.right" timestamp="1690341633690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="68" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1690341633690" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1689842786832">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1689842786832" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1690363821471">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1690363821471" />
+  </component>
+</project>
