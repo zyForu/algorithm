@@ -4,9 +4,13 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 import zyforu.array.GenericArray;
+import zyforu.linkedlist.LRUWithLinkedList;
 import zyforu.linkedlist.SingleLinkedList;
+import zyforu.linkedlist.gk.LRUBaseLinkedList;
+import zyforu.stack.BrowserWithStack;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * Unit test for simple App.
@@ -87,6 +91,48 @@ public class AppTest
         }else{
             System.out.println("不是回文");
         }
+    }
+
+    @Test
+    public void testLRU() {
+        LRUWithLinkedList<Integer> list = new LRUWithLinkedList<>();
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            list.offer(sc.nextInt());
+            list.printAll();
+        }
+    }
+
+    @Test
+    public void testBrowser() {
+        BrowserWithStack browser = new BrowserWithStack();
+        browser.open("http://www.baidu.com");
+        browser.open("http://news.baidu.com/");
+        browser.open("http://news.baidu.com/ent");
+        browser.show();
+
+        browser.backPage();
+        browser.show();
+
+        browser.backPage();
+        browser.show();
+
+        browser.forward();
+        browser.show();
+
+        browser.open("http://www.qq.com");
+        browser.show();
+
+        browser.forward();
+        browser.show();
+
+        browser.backPage();
+        browser.forward();
+        browser.backPage();
+        browser.backPage();
+        browser.backPage();
+        browser.backPage();
+        browser.show();
     }
 
 }

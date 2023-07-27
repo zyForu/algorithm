@@ -1,6 +1,8 @@
 package zyforu.linkedlist.gk;
 
 
+import zyforu.linkedlist.LRUWithLinkedList;
+
 import java.util.Scanner;
 
 /**
@@ -166,10 +168,16 @@ public class LRUBaseLinkedList<T> {
     }
 
     public static void main(String[] args) {
-        LRUBaseLinkedList list = new LRUBaseLinkedList();
+        /*LRUBaseLinkedList list = new LRUBaseLinkedList();
         Scanner sc = new Scanner(System.in);
         while (true) {
             list.add(sc.nextInt());
+            list.printAll();
+        }*/
+        LRUWithLinkedList<Integer> list = new LRUWithLinkedList<>(1);
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            list.offer(sc.nextInt());
             list.printAll();
         }
     }

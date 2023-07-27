@@ -6,6 +6,13 @@ package zyforu.linkedlist.gk;
  *
  * Author：Zheng
  */
+
+/**
+ * 书写链表时，注意局部变量引用的问题:单纯修改局部变量对链表没有影响，需要通过局部变量引用到列表节点才能做修改
+ */
+
+
+
 public class SinglyLinkedList {
 
     private Node head = null;

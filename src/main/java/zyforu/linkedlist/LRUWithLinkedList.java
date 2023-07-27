@@ -30,13 +30,37 @@ public class LRUWithLinkedList<T> {
     // 访问数据
     public void offer(T t) {
         Integer ind = holders.get(t);
-        if (ind != null) {
+        if (ind == null) {
             if(count == capacity) {
                 removeAndCache(t);
             }else {
                 cache(t);
             }
+        }else {
+            adjustToHeader(t);
         }
+    }
+
+    private void adjustToHeader(T t) {
+        SNode s = value;
+        SNode pre = null;
+        while(s != null && !s.data.equals(t)) {
+            pre = s;
+            s = s.next;
+        }
+
+        if (pre == null) {
+            return;
+        }
+        SNode tmp = pre.next;
+        pre.next = pre.next.next;
+        holders.remove(tmp.data);
+        tmp = null;
+        SNode<T> newNode = new SNode<>(t);
+        newNode.next = value;
+        value = newNode;
+        holders.forEach((k,v) -> holders.put(k, v+1));
+        holders.put(t, 0);
     }
 
     private void cache(T t) {
@@ -49,20 +73,25 @@ public class LRUWithLinkedList<T> {
             value = newNode;
         }
         count++;
+        holders.forEach((k,v) -> holders.put(k, v+1));
         holders.put(t, 0);
 
     }
 
     private void removeAndCache(T t) {
-        if(value.next == null) {
-            value = null;
-        }else {
-            SNode p = value;
-            while(p.next != null) {
-                p = p.next;
-            }
-            p.next = null;
+        SNode s = value;
+        SNode p = null;
+        while (s.next!= null) {
+            p = s;
+            s = s.next;
         }
+        holders.remove(s.data);
+        if (p != null) {
+            p.next = null;
+        }else {
+            value = null;
+        }
+        count--;
         cache(t);
     }
 
@@ -76,5 +105,14 @@ public class LRUWithLinkedList<T> {
             this.next = null;
         }
     }
+
+    public void printAll() {
+        SNode p = value;
+        while (p != null) {
+            System.out.print(p.data + " ");
+            p = p.next;
+        }
+    }
+
 
 }
